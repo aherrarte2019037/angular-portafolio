@@ -8,6 +8,8 @@ import { NavbarComponent } from './components/navbar/navbar.component';
 import { HeroComponent } from './components/hero/hero.component';
 import { AttributesSectionComponent } from './components/attributes-section/attributes-section.component';
 import { TestimonialsComponent } from './components/testimonials/testimonials.component';
+import { SkillsComponent } from './components/skills/skills.component';
+import { FooterComponent } from './components/footer/footer.component';
 
 @NgModule({
   declarations: [
@@ -16,7 +18,9 @@ import { TestimonialsComponent } from './components/testimonials/testimonials.co
     NavbarComponent,
     HeroComponent,
     AttributesSectionComponent,
-    TestimonialsComponent
+    TestimonialsComponent,
+    SkillsComponent,
+    FooterComponent
   ],
   imports: [
     BrowserModule,
